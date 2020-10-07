@@ -150,12 +150,13 @@ const About = ({ aboutCollection }) => {
               Contact Details
             </Heading>
             <Text fontSize="bold" fontSize={["xl"]} mt={4}>
-              Utkal Labs
+              Utkal Labs Pvt Ltd.
               <br />
-              Patia Square, Bhubaneswar
+              Raghunathpur, Bhubaneswar
               <br />
-              751017 India
+              751024 India
               <br /> contact@utkallabs.com
+              <br /> +91 9853438868 / +91 9132994288
             </Text>
           </Flex>
         </Grid>
