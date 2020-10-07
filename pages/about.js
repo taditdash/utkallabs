@@ -150,7 +150,7 @@ const About = ({ aboutCollection }) => {
               Contact Details
             </Heading>
             <Text fontSize="bold" fontSize={["xl"]} mt={4}>
-              Sketch Media
+              Utkal Labs
               <br />
               Patia Square, Bhubaneswar
               <br />
