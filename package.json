@@ -1,5 +1,5 @@
 {
-  "name": "sketchmedia",
+  "name": "utkallabs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -22,5 +22,7 @@
     "react-dom": "^16.13.0",
     "react-final-form": "^6.5.0",
     "react-icons": "^3.10.0"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
