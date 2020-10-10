@@ -10,7 +10,6 @@ import {
   DrawerCloseButton,
   DrawerHeader,
   DrawerBody,
-  SimpleGrid,
   useDisclosure
 } from "@chakra-ui/core";
 import React from "react";
@@ -278,7 +277,7 @@ const Home = ({ homepageCollection, serviceCollection }) => {
           letterSpacing="widest"
           textAlign="center"
         >
-          DATA SOURCES
+          DATABASE
         </Heading>
         <Stack justify="space-between" my="30px" direction="row">
           <Box>
