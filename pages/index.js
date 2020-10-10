@@ -198,7 +198,7 @@ const Home = ({ homepageCollection, serviceCollection }) => {
         </Heading>
 
         <Stack justify="space-between" my="30px" direction="row">
-          <Box>
+          <Box bg="blue.100" overflow="hidden">
             <Image
               src="https://images.ctfassets.net/kn9wi23xyla8/3CZzHnwO7eOVjSG64SFHa5/090508af594c83373c97d281f193b6b7/react.png?h=250"
               alt="reactjs"
@@ -219,9 +219,9 @@ const Home = ({ homepageCollection, serviceCollection }) => {
               opacity="0.5"
             />
           </Box>
-          <Box>
+          <Box bg="blue.100" overflow="hidden">
             <Image
-              src="https://images.ctfassets.net/kn9wi23xyla8/3NX1mMpGnexKO13k534A6I/253aac96692cb354f2c1a0f52247dd1a/nuxt.png?h=250"
+              src="https://images.ctfassets.net/kn9wi23xyla8/1w2N72HEYQ2bJyE5KusDCD/55e45cade19595a29d913c2d50987216/nuxtjs.png?h=250"
               alt="nuxtjs"
               opacity="0.5"
             />
@@ -241,6 +241,13 @@ const Home = ({ homepageCollection, serviceCollection }) => {
         <Stack justify="space-between" my="30px" direction="row">
           <Box>
             <Image
+              src="https://images.ctfassets.net/kn9wi23xyla8/7D0GsIseXgYuQAdqDLvRX0/1007d4b6c5c0e273044a3695d5730d4d/nodejs.png?h=250"
+              alt="nodejs"
+              opacity="0.5"
+            />
+          </Box>
+          <Box>
+            <Image
               src="https://images.ctfassets.net/kn9wi23xyla8/3uabch66tk4kKVUh04zwXZ/0298a9e6c6a227db6ccfffe4b8eaf8d9/express.png?h=250"
               alt="Express"
               opacity="0.5"
@@ -248,22 +255,15 @@ const Home = ({ homepageCollection, serviceCollection }) => {
           </Box>
           <Box>
             <Image
-              src="https://images.ctfassets.net/kn9wi23xyla8/3qwapEKPNMWffUAmnK6GOh/f4a3a6951da2ea1c5f72b5534ac0bfaa/next.png?h=250"
-              alt="nextjs"
+              src="https://images.ctfassets.net/kn9wi23xyla8/4YPWW79ZyR3dVW22xnmaBY/94af2eccac24e5c035db65e92d819da6/spring.png?h=250"
+              alt="spring"
               opacity="0.5"
             />
           </Box>
           <Box>
             <Image
-              src="https://images.ctfassets.net/kn9wi23xyla8/6s9iFYT8aCo3UvUGrBGicT/f03cf05461f27522ef3ed1beaaa8b121/vue.png?h=250"
-              alt="vuejs"
-              opacity="0.5"
-            />
-          </Box>
-          <Box>
-            <Image
-              src="https://images.ctfassets.net/kn9wi23xyla8/3NX1mMpGnexKO13k534A6I/253aac96692cb354f2c1a0f52247dd1a/nuxt.png?h=250"
-              alt="nuxtjs"
+              src="https://images.ctfassets.net/kn9wi23xyla8/4NSuAkhFO3A4wSZnDtjWuj/565326eafd4c570974b934f6e8ef31a5/graphql.png?h=250"
+              alt="graphql"
               opacity="0.5"
             />
           </Box>
@@ -279,36 +279,49 @@ const Home = ({ homepageCollection, serviceCollection }) => {
         >
           DATABASE
         </Heading>
-        <Stack justify="space-between" my="30px" direction="row">
+        <Stack justify="center" spacing="40px" my="30px" direction="row">
           <Box>
             <Image
-              src="https://images.ctfassets.net/kn9wi23xyla8/3uabch66tk4kKVUh04zwXZ/0298a9e6c6a227db6ccfffe4b8eaf8d9/express.png?h=250"
-              alt="Express"
+              src="https://images.ctfassets.net/kn9wi23xyla8/2qaM5FzTj0SVoDjFd59OYC/8d3e873793bfdc3f8bbe43a552d19788/mysql.png?h=250"
+              alt="mysql"
               opacity="0.5"
             />
           </Box>
           <Box>
             <Image
-              src="https://images.ctfassets.net/kn9wi23xyla8/3qwapEKPNMWffUAmnK6GOh/f4a3a6951da2ea1c5f72b5534ac0bfaa/next.png?h=250"
-              alt="nextjs"
-              opacity="0.5"
-            />
-          </Box>
-          <Box>
-            <Image
-              src="https://images.ctfassets.net/kn9wi23xyla8/6s9iFYT8aCo3UvUGrBGicT/f03cf05461f27522ef3ed1beaaa8b121/vue.png?h=250"
-              alt="vuejs"
-              opacity="0.5"
-            />
-          </Box>
-          <Box>
-            <Image
-              src="https://images.ctfassets.net/kn9wi23xyla8/3NX1mMpGnexKO13k534A6I/253aac96692cb354f2c1a0f52247dd1a/nuxt.png?h=250"
-              alt="nuxtjs"
+              src="https://images.ctfassets.net/kn9wi23xyla8/52A9SByBSjkPsIGKNJ3w8K/30fa36a7c00e7c00f3ab2b732bd29848/mongodb.png?h=250"
+              alt="mongodb"
               opacity="0.5"
             />
           </Box>
         </Stack>
+
+        {/*   <Heading
+          mt="40px"
+          fontSize={["md", "md", "lg", "lg"]}
+          color="gray.100"
+          fontWeight="extrabold"
+          letterSpacing="widest"
+          textAlign="center"
+        >
+          CMS
+        </Heading>
+        <Stack justify="center" spacing="40px" my="30px" direction="row">
+          <Box>
+            <Image
+              src="https://images.ctfassets.net/kn9wi23xyla8/2qaM5FzTj0SVoDjFd59OYC/8d3e873793bfdc3f8bbe43a552d19788/mysql.png?h=250"
+              alt="mysql"
+              opacity="0.5"
+            />
+          </Box>
+          <Box>
+            <Image
+              src="https://images.ctfassets.net/kn9wi23xyla8/52A9SByBSjkPsIGKNJ3w8K/30fa36a7c00e7c00f3ab2b732bd29848/mongodb.png?h=250"
+              alt="mongodb"
+              opacity="0.5"
+            />
+          </Box>
+        </Stack> */}
       </GridSection>
 
       <Footer onClick={onOpen} />
